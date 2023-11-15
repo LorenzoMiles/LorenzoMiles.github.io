@@ -17,6 +17,7 @@ header{
     text-align: center;
 }
 .nav-bar{
+    background-color: #999999;
     background-color: #161618;
     display: flex;
     justify-content: space-around;
