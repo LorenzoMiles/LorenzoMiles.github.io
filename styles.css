@@ -5,18 +5,19 @@
 header{
     width:100%;
     align-items: center;
-    background-color: #88aaff;
+    background-color: #045010;
     padding-top: 5px;
 }
 .heading{
-    color:#363636;
+    font-family:Roboto;
+    color:#f4eeee;
     font-size:30px;
 }
 .heading h1{
     text-align: center;
 }
 .nav-bar{
-    background-color: #6495ed;
+    background-color: #161618;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -26,10 +27,11 @@ header{
 }
 .nav-bar a{
     font-size: 20px;
-    color:#7b3804;
+    color:#fdfbf9;
 }
 .nav-bar .active{
-    color: #e25825;
+    color: #fdfbf9;
+    text-decoration: underline;
 }
 a:link{
     text-decoration: none;
@@ -69,6 +71,22 @@ footer{
     display: flex;
     margin-left: 100px;
 }
-img {
+    
+image {
     float: left;
+    
 }
+font{font-family:Roboto;}
+
+.form{
+    margin:25px 50px 50px 25px;
+    position: absolute;
+}
+.fix{ 
+    position:absolute; 
+    bottom:0px; 
+    left:80%;
+    height: 50px; 
+    width: 50px; 
+    z-index: 9999999; 
+  }
