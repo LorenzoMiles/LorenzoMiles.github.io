@@ -65,3 +65,10 @@ footer{
     border: #6495ed 2px solid;
     border-radius: 10px;
 }
+.display{
+    display: flex;
+    margin-left: 100px;
+}
+img {
+    float: left;
+}
