@@ -53,10 +53,10 @@ footer{
     width: 100%;
     text-align: center;
     font-size: 20px;
-    background-color: #88aaff;
+    background-color: rgb(10, 87, 15);
     bottom:0;
     position: fixed;
-    color:#7b3804;
+    color:rgb(0, 0, 0);
 }
 .content p{
     font-size: 20px;
