@@ -7,6 +7,7 @@ header{
     align-items: center;
     background-color: #045010;
     padding-top: 5px;
+    top:0;
 }
 .heading{
     font-family:Roboto;
@@ -73,22 +74,28 @@ footer{
     position: absoulte;
     margin-left: 100px;
 }
-    
-image {
-   float: right;
-    
-}
-font{
+
+.font{
     font-family:Roboto;
-    font-size: large;
+    font-size: 110%;
     color:#161618
 }
 
-.fix{ 
-    position:absolute; 
+.fix{  
+    position:absolute;
     left:80%;
     justify-content: space-between;
   }
   .text{
+    margin-left:40px;
+    margin-right: 40px;
     text-align:center;
+    font-family:Roboto;
+    font-size: 110%;
+    color:#161618
   }
+.text2{
+font-family:Roboto;
+font-size:200%;
+color:#161618
+}
