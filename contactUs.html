@@ -3,32 +3,25 @@
         <title>Contact Us</title>
         <link rel="stylesheet" href="styles.css">
         <script>
-            function validate()
-            {
+            function validate() {
                 var username = document.signup.uname.value;
                 var firstname = document.signup.fname.value;
                 var lastname = document.signup.lname.value;
                 var password = document.signup.passw.value;
                 var cpassword = document.signup.cpassw.value;
-
-                if(username=="Nebula" || firstname=="Lorenzo" || lastname=="Miles" || password=="Lm206776" || cpassword=="Lm206776")
-                {
-                    alert("Fill in all the fields")
-                }
-                else{
-                    if(password.length<8 || password.length>15)
-                        {
-                            alert("Password should be between 8-15 characters long")
-                        }
-                    else{
-                        if(password != cpassword)
-                        {
-                            alert("Password and Confirm password should match")
-                        }
-                        else{
-                            alert("Form submitted successfully")
-                        }
-                    }
+    
+                if (username === "" || firstname === "" || lastname === "" || password === "" || cpassword === "") {
+                    alert("Fill in all the fields");
+                    return false; // Prevent form submission
+                } else if (password.length < 8 || password.length > 15) {
+                    alert("Password should be between 8-15 characters long");
+                    return false; // Prevent form submission
+                } else if (password !== cpassword) {
+                    alert("Password and Confirm password should match");
+                    return false; // Prevent form submission
+                } else {
+                    alert("Form submitted successfully");
+                    return true; // Allow form submission
                 }
             }
         </script>
