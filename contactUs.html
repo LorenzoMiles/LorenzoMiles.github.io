@@ -12,16 +12,12 @@
     
                 if (username === "" || firstname === "" || lastname === "" || password === "" || cpassword === "") {
                     alert("Fill in all the fields");
-                    return false; // Prevent form submission
                 } else if (password.length < 8 || password.length > 15) {
                     alert("Password should be between 8-15 characters long");
-                    return false; // Prevent form submission
                 } else if (password !== cpassword) {
                     alert("Password and Confirm password should match");
-                    return false; // Prevent form submission
                 } else {
                     alert("Form submitted successfully");
-                    return true; // Allow form submission
                 }
             }
         </script>
